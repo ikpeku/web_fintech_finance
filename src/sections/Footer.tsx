@@ -4,7 +4,7 @@ import Navigation from "../components/Navigation";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#F3F3F3] px-4  sm:px-6 lg:px-8 ">
+    <footer className="bg-[#F3F3F3] px-4  sm:px-6 lg:px-8 pt-4 pb-2">
 
       <div className="lg:flex lg:items-center lg:justify-between pb-3 sm:pb-10">
         <div className="">
