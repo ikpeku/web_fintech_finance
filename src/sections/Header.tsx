@@ -1,8 +1,9 @@
-const routesProduct = ["Demos", "About", "Blog", "Pages", "Contact"];
+import Navigation from "../components/Navigation";
+
 
 export default function Header() {
   return (
-    <header className="bg-white ">
+    <header className="bg-white px-4  sm:px-6 lg:px-8 ">
       <div className=" flex h-16  items-center gap-28 ">
         <a className="block" href="#">
           <span className="sr-only">Home</span>
@@ -27,18 +28,9 @@ export default function Header() {
 
         <div className="flex flex-1 items-center justify-end md:justify-between">
           <nav aria-label="Global" className="hidden md:block">
-            <ul className="flex items-center gap-6 text-sm">
-              {routesProduct.map((item) => (
-                <li key={item}>
-                  <a
-                    className="text-[#343434] font-[Inter] font-medium text-base transition hover:text-gray-500/75"
-                    href="#"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
-            </ul>
+            
+           <Navigation />
+
           </nav>
 
           <div className="flex items-center gap-4">
