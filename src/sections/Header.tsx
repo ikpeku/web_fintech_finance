@@ -2,7 +2,7 @@
 import Navigation from "../components/Navigation";
 
 
-export default function Header() {
+export default function Header({onClick}: {onClick: () => void}) {
   return (
     <header className="bg-white px-4  sm:px-6 lg:px-8 ">
       <div className=" flex h-16  items-center gap-28 ">
@@ -31,7 +31,6 @@ export default function Header() {
           <nav aria-label="Global" className="hidden md:block">
             
            <Navigation />
-           {/* <NavigateMobile /> */}
 
           </nav>
 
@@ -52,7 +51,7 @@ export default function Header() {
               </a>
             </div>
 
-            <button className="block rounded-sm  p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
+            <button onClick={onClick} className="block rounded-sm  p-2.5 text-gray-600 transition hover:text-gray-600/75 md:hidden">
               <span className="sr-only">Toggle menu</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
