@@ -1,0 +1,1 @@
+export const routesProduct = ["Demos", "About", "Blog", "Pages", "Contact"];

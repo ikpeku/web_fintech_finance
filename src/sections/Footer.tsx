@@ -8,7 +8,7 @@ export default function Footer() {
 
       <div className="lg:flex lg:items-center lg:justify-between pb-3 sm:pb-10">
         <div className="">
-          <h2 className="font-[Plus Jakarta Sans] text-4xl font-bold text-main">
+          <h2 className="font-[Plus Jakarta Sans] text-xl sm:text-4xl font-bold text-main">
             Make secure <br /> payment & grow <br /> your online business
           </h2>
         </div>

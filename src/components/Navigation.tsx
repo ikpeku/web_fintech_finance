@@ -1,4 +1,5 @@
-const routesProduct = ["Demos", "About", "Blog", "Pages", "Contact"];
+
+import { routesProduct } from "../utils";
 
 export default function Navigation() {
   return (

@@ -1,3 +1,4 @@
+// import { NavigateMobile } from "../components";
 import Navigation from "../components/Navigation";
 
 
@@ -30,6 +31,7 @@ export default function Header() {
           <nav aria-label="Global" className="hidden md:block">
             
            <Navigation />
+           {/* <NavigateMobile /> */}
 
           </nav>
 
