@@ -61,17 +61,7 @@ export default function HeaderBanner() {
                   </div>
                 </blockquote>
 
-                {/* {
-    Items.map((item, index, rest) => (
-
-
-       
-
-        {/* <div className={index + 1 !== rest.length ? ` border-b-2 pb-7 sm:pb-0 sm:border-b-0 sm:border-r-2  border-disable/80 w-1/2 h-1/2 ` : ""} /> */}
-
-                {/* <div className={index + 1 !== rest.length ? `block sm:hidden border-b-2 pb-7 sm:pb-0 sm:border-b-0 sm:border-r-2  border-disable/80  w-1/2 ` : ""} /> */}
-
-                {/* <div className="w-3 bg-red-800" /> */}
+           
               </div>
             </div>
           </div>

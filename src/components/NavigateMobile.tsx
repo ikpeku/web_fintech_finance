@@ -13,7 +13,6 @@ export default function NavigateMobile({onClick}: {onClick: () => void}) {
                   <button
                   onClick={onClick}
                   key={item}
-                  // href="#"
                   className="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
                   role="menuitem"
                 >
@@ -22,22 +21,6 @@ export default function NavigateMobile({onClick}: {onClick: () => void}) {
                 ))
               }
              
-
-              {/* <a
-                href="#"
-                className="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                role="menuitem"
-              >
-                Billing summary
-              </a>
-
-              <a
-                href="#"
-                className="block rounded-lg px-4 py-2 text-sm text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                role="menuitem"
-              >
-                Team settings
-              </a> */}
             </div>
 
           

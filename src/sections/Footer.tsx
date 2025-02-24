@@ -1,6 +1,4 @@
 import Navigation from "../components/Navigation";
-// lg:pt-24
-// py-16
 
 export default function Footer() {
   return (

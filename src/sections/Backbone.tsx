@@ -6,9 +6,6 @@ export default function Backbone() {
     <section className="max-w-screen-xl mx-auto ">
   <div className=" px-4 py-8 sm:px-6 lg:px-8">
 
-
-
-
     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
 
       <div 
@@ -28,25 +25,6 @@ export default function Backbone() {
           Lorem ipsum dolor sit amet consectetur. Aliquet ut ante ut eu. Id viverra libero est nLorem ipsum dolor sit amet consectetur. Aliquet ut ante ut eu. Id viverra libero est n        
           </blockquote>
 
- 
-
- 
-    {/* <blockquote className="rounded-lg shadow-xs mt-4">
-        <div className="flex items-center gap-4">
-          <img
-            alt=""
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-            className=" size-8 sm:size-12 rounded-full object-cover"
-          />
-          <div>
-            
-            <p className="text-sm sm:text-lg font-medium text-main">Theresa Webb</p>
-            <p className="text-disable/90 text-xs sm:text-base">Director of technology .creativegig</p>
-          </div>
-        </div>
-      </blockquote>  */}
-
-          
         </div>
       </div>
 
